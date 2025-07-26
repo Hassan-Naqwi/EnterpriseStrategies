@@ -1,7 +1,5 @@
 @media (min-width: 320px) and (max-width:767px) {
 
-
-
     .container,
     .container2 {
         width: 100%;
@@ -101,6 +99,7 @@
         padding: 20px;
         right: 0;
         opacity: 0;
+        visibility: hidden;
         transition: all 0.3s ease-in-out;
         top: 80px;
         width: 100%;
@@ -116,6 +115,7 @@
 
     #toggle:checked+label+.dropdown-content {
         opacity: 1;
+        visibility: visible;
     }
 
     .dropdown-content2 {
